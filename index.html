@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Eduverse.id - Jelajahi semesta ilmu dalam satu tempat.">
+  <title>Eduverse.id — Jelajahi Semesta Ilmu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo">
+      <span class="logo-orbit">◉</span>
+      <span>Eduverse<span class="dot">.id</span></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a class="active" href="#beranda">⌂&nbsp; Beranda</a>
+      <a href="#kategori">Kategori <span>⌄</span></a>
+      <a href="#artikel">Artikel</a>
+      <a href="#tentang">Tentang Kami</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="search">
+        <span>⌕</span>
+        <input id="searchInput" type="search" placeholder="Cari artikel, topik, atau kata kunci...">
+      </div>
+      <button class="icon-btn" id="themeToggle" aria-label="Ganti tema">☼</button>
+      <button class="menu-btn" id="menuBtn" aria-label="Buka menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero-content">
+        <div class="eyebrow">✨ BELAJAR • MENJELAJAH • BERKEMBANG</div>
+        <h1>Jelajahi Semesta Ilmu,<br><span>Dalam Satu Tempat</span></h1>
+        <h2>Mulailah belajar untuk mengejar masa depanmu.</h2>
+        <p>
+          Di Eduverse, kami percaya belajar tidak seharusnya membosankan.
+          Dari sains, teknologi, sejarah dunia, hingga tips belajar —
+          semua kami rangkum di sini untuk menambah wawasanmu setiap harinya.
+        </p>
+        <a class="primary-btn" href="#kategori">🚀 &nbsp;Mulai Belajar <span>→</span></a>
+      </div>
+
+      <div class="hero-art" aria-label="Ilustrasi belajar">
+        <div class="stars">✦　·　✧　　·　✦　·　✧</div>
+        <div class="planet planet-earth">🌍</div>
+        <div class="planet planet-small">🪐</div>
+        <div class="rocket">🚀</div>
+        <div class="bulb">💡</div>
+        <div class="student">🧑‍🎓</div>
+        <div class="book book1">SAINS</div>
+        <div class="book book2">TEKNOLOGI</div>
+        <div class="book book3">SEJARAH</div>
+        <div class="book book4">DUNIA</div>
+        <div class="book book5">TIPS BELAJAR</div>
+        <div class="globe">🌐</div>
+      </div>
+    </section>
+
+    <section class="categories" id="kategori">
+      <div class="category">
+        <div class="cat-icon yellow">💡</div>
+        <h3>Sains</h3>
+        <p>Fakta menarik tentang alam semesta, tubuh manusia, dan ilmu pengetahuan.</p>
+      </div>
+      <div class="category">
+        <div class="cat-icon blue">💻</div>
+        <h3>Teknologi</h3>
+        <p>Inovasi, AI, internet, komputer, dan masa depan digital.</p>
+      </div>
+      <div class="category">
+        <div class="cat-icon purple">🏛️</div>
+        <h3>Sejarah Dunia</h3>
+        <p>Peristiwa penting, tokoh besar, dan kisah yang membentuk dunia.</p>
+      </div>
+      <div class="category">
+        <div class="cat-icon green">🌍</div>
+        <h3>Dunia</h3>
+        <p>Negara, budaya, tempat unik, dan keajaiban di seluruh penjuru bumi.</p>
+      </div>
+      <div class="category">
+        <div class="cat-icon pink">🎓</div>
+        <h3>Tips Belajar</h3>
+        <p>Strategi, motivasi, dan cara belajar yang efektif untuk masa depanmu.</p>
+      </div>
+      <div class="category">
+        <div class="cat-icon mint">🌱</div>
+        <h3>Lingkungan</h3>
+        <p>Alam, hewan, perubahan iklim, dan cara menjaga bumi kita.</p>
+      </div>
+    </section>
+
+    <section class="articles" id="artikel">
+      <div class="section-heading">
+        <div>
+          <span class="section-line"></span>
+          <h2>Artikel Pilihan</h2>
+          <p>Jelajahi artikel terbaru dan paling menarik di Eduverse.</p>
+        </div>
+        <a href="#">Lihat Semua →</a>
+      </div>
+
+      <div class="article-grid" id="articleGrid">
+        <article class="article-card" data-search="sains alam semesta galaksi">
+          <div class="article-image space">🌌</div>
+          <div class="article-body"><span class="tag">Sains</span><h3>Kenapa Alam Semesta Terus Mengembang?</h3><p>Memahami salah satu misteri terbesar dalam ilmu kosmologi.</p></div>
+        </article>
+        <article class="article-card" data-search="teknologi ai kecerdasan buatan">
+          <div class="article-image tech">🤖</div>
+          <div class="article-body"><span class="tag">Teknologi</span><h3>Apa Itu Kecerdasan Buatan?</h3><p>Mengenal AI dengan bahasa sederhana dan contoh sehari-hari.</p></div>
+        </article>
+        <article class="article-card" data-search="sejarah dunia romawi">
+          <div class="article-image history">🏛️</div>
+          <div class="article-body"><span class="tag">Sejarah Dunia</span><h3>Kisah Kota-Kota Besar Masa Lalu</h3><p>Menelusuri jejak peradaban yang meninggalkan pengaruh besar.</p></div>
+        </article>
+        <article class="article-card" data-search="lingkungan bumi iklim">
+          <div class="article-image nature">🌎</div>
+          <div class="article-body"><span class="tag">Lingkungan</span><h3>Mengapa Menjaga Bumi Itu Penting?</h3><p>Langkah sederhana yang bisa kita lakukan untuk lingkungan.</p></div>
+        </article>
+      </div>
+      <p class="no-results" id="noResults">Artikel tidak ditemukan.</p>
+    </section>
+
+    <section class="about" id="tentang">
+      <div>
+        <span class="section-line"></span>
+        <h2>Belajar lebih luas bersama Eduverse.id</h2>
+        <p>Tempat untuk menemukan pengetahuan, fakta menarik, dan wawasan baru dalam format yang ringan dan mudah dipahami.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Eduverse<span class="dot">.id</span></strong>
+    <span>© <span id="year"></span> Eduverse.id — Semua hak dilindungi.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
